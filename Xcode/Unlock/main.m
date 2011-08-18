@@ -15,7 +15,7 @@ int main (int argc, const char * argv[])
 
 	// insert code here...
 	Keychain* keychain = [[Keychain alloc] init];
-	NSMutableArray* volumesAndPasswords = [keychain volumesAndPasswordsWithService:@"name.ridgewell.unlock"];
+	NSMutableArray* volumesAndPasswords = [keychain volumesAndPasswordsWithService:@"UnlockLogicalVolumeHelper"];
 
 	for (NSMutableArray* volumeAndPassword in volumesAndPasswords) {
 		NSString* uuid = [volumeAndPassword objectAtIndex:0];
