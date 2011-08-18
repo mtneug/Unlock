@@ -27,7 +27,7 @@ need for another user account. Simply put, it allows me to log in like normal.
 
 Run [this][install] in the terminal.
 
-    bash <(curl -s https://raw.github.com/jridgewell/Unlock/master/install.sh)
+    bash <(curl -s https://raw.github.com/dbcm/Unlock/master/install.sh)
 
 - You will be asked for your login password.
 - Follow the prompts
@@ -44,7 +44,7 @@ Run [this][install] in the terminal.
 Run [this][uninstall] in the terminal (you'll be asked for your login password)
 to remove all traces from the system.
 
-    bash <(curl -s https://raw.github.com/jridgewell/Unlock/master/uninstall.sh)
+    bash <(curl -s https://raw.github.com/dbcm/Unlock/master/uninstall.sh)
 
 
 ## Q&A
@@ -76,7 +76,7 @@ everything will go back to normal.
 If you have a problem, file a [bug report][issue] or fix it and submit a [pull
 request][pull].
 
-[install]: https://raw.github.com/jridgewell/Unlock/master/install.sh
-[uninstall]: https://raw.github.com/jridgewell/Unlock/master/uninstall.sh
-[issue]: https://github.com/jridgewell/unlock/issues
-[pull]: https://github.com/jridgewell/unlock/pulls
+[install]: https://raw.github.com/dbcm/Unlock/master/install.sh
+[uninstall]: https://raw.github.com/dbcm/Unlock/master/uninstall.sh
+[issue]: https://github.com/dbcm/unlock/issues
+[pull]: https://github.com/dbcm/unlock/pulls
