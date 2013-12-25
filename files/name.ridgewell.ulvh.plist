@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>Label</key>
-	<string>name.ridgewell.unlock</string>
+	<string>name.ridgewell.ulvh</string>
 	<key>LaunchOnlyOnce</key>
 	<true/>
 	<key>OnDemand</key>
 	<false/>
 	<key>Program</key>
-	<string>/Library/LaunchDaemons/name.ridgewell.unlock</string>
+	<string>/Library/UnlockLogicalVolumeHelper/ulvh</string>
 	<key>RunAtLoad</key>
 	<true/>
 	<key>ServiceDescription</key>

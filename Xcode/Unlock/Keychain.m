@@ -31,10 +31,10 @@
 	CFArrayRef results = nil;
 	NSMutableDictionary* query = [self queryOfAllItemsWithService:service];
 	OSStatus status = SecItemCopyMatching((CFDictionaryRef) query, (CFTypeRef*) &results);
-	
+
 	if (status == errSecSuccess) {
 		CFIndex resultCount = CFArrayGetCount(results);
-		
+
 		for (CFIndex i = 0; i < resultCount; i++) {
 			NSMutableArray* volumeAndPassword = [[NSMutableArray alloc] init];
 			NSData* passwordData = nil;
